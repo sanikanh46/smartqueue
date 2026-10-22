@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartQueue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SmartQueue</h1>
+    <p>Manage your waiting time smarter.</p>
+
+    <div class="dashboard">
+        <h2>Queue Dashboard</h2>
+
+        <div class="stats">
+            <p>Your Token Number</p>
+            <h2 id="token">-</h2>
+        </div>
+
+        <div class="stats">
+            <p>People Waiting</p>
+            <h2 id="waiting">0</h2>
+        </div>
+
+        <button id="getToken">Get Your Token</button>
+
+        <p id="message" aria-live="polite">
+            Click the button to get your token.
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
